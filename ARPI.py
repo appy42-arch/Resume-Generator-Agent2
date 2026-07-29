@@ -109,7 +109,7 @@ if user_photo is not None:
 
 user_query = f"""Give Resume for Python Developer.
     user details : {user_info}
-    use user profile image from given {tmp_path}"""
+    use user profile image from given {user_photo}"""
 
 final_query = final_prompt + user_query
 
