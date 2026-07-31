@@ -6,7 +6,7 @@ from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 from tavily import TavilyClient
-import pytesseract as pyt
+import pytesseract as pyt 
 import numpy as np
 from langchain.messages import SystemMessage, HumanMessage
 from langchain.agents import create_agent
